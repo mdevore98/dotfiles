@@ -1,0 +1,18 @@
+# Umich Gitlab
+Host gitlab
+  HostName gitlab.com
+  User git
+  IdentifyFile ~/.ssh/devore
+
+# CAEN
+Host madi
+  HostName login.engin.umich.edu
+  User devore
+  Compression yes
+
+# Home media server
+Host nas 
+  HostName 10.180.239.64
+  User devore
+  IdentityFile ~/.sh/id_rsa
+
